@@ -1,0 +1,29 @@
+.hero-image {
+    width: 100%;
+    height: 400px;
+    text-align: left;
+    padding: 40px;
+
+    background-image: url("/images/code.png");
+    background-size: cover;
+    background-position: center 50%;
+    background-repeat: no-repeat;
+}
+.txt-label, .txt-header{
+    font-size: 30px;
+    margin: 0;
+}
+.txt-header{
+    font-size: 60px;
+    font-weight: bold;
+}
+.txt2-label{
+    font-size: 20px;
+    color: rgb(44, 128, 224);
+}
+.txt-description{
+    font-size: 15px;
+    max-width: 600px;
+    margin-top: -10px;
+
+}
