@@ -1,0 +1,27 @@
+.scroll-down {
+    width: 30px;
+    height: 30px;
+    
+    border-right: 7px solid rgb(44, 128, 224);
+    border-bottom: 7px solid rgb(44, 128, 224);
+    cursor: pointer;
+    transform: rotate(-135deg);
+}
+.arrow-container{
+    display: flex;
+    justify-content: center;
+}
+.scroll-down:hover{
+    animation: rotateArrow 0.5s forwards;
+}
+
+@keyframes rotateArrow {
+
+    from {
+        transform: rotate(-135deg);
+    }
+
+    to {
+        transform: rotate(45deg);
+    }
+}

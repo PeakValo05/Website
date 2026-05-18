@@ -179,8 +179,8 @@ span{
     align-items: center;
     justify-content: center;
 
-    background: linear-gradient(135deg, rgb(173, 173, 173), rgb(240, 240, 240));
-    box-shadow: 0 8px 20px rgba(44, 128, 224, 0.35);
+    background: rgb(44, 128, 224);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.60);
 
     font-size: 32px;
 }
