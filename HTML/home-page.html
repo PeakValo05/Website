@@ -11,12 +11,19 @@
     <link rel="stylesheet" href="/HomePageCSS/bars.css">
     <link rel="stylesheet" href="/HomePageCSS/buttons.css">
     <link rel="stylesheet" href="/HomePageCSS/cards.css">
-    <link rel="stylesheet" href="/HomePageCSS/responsive.css">
+    <link rel="stylesheet" href="/HomePageCSS/header-responsive.css">
     <link rel="stylesheet" href="/HomePageCSS/content.css">
     <link rel="stylesheet" href="/HomePageCSS/body-content.css">
     <link rel="stylesheet" href="/HomePageCSS/header.css">
     <link rel="stylesheet" href="/HomePageCSS/table.css">
     <link rel="stylesheet" href="/HomePageCSS/animated-arrow.css">
+    <link rel="stylesheet" href="/HomePageCSS/body-content-responsive.css">
+    <link rel="stylesheet" href="/HomePageCSS/table-responsive.css">
+    <link rel="stylesheet" href="/HomePageCSS/buttons-responsive.css">
+
+
+
+    
 </head>
 
 <body>
@@ -29,12 +36,20 @@
         <header class="top-bar">
             <label class="label-jackson">Jackson Wiser</label>
 
-            <label for="burger" class="burger">
+            <label for="burger" class="burger" id="burger-menu">
                 <input id="burger" type="checkbox">
                 <span></span>
                 <span></span>
                 <span></span>
             </label>
+
+            <div class="mobile-menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a href="contact-page.html">Contact</a>
+            </div>
+
         </header>
 
         <!-- ===== HERO ===== -->
@@ -212,6 +227,17 @@
     <div class="sub-header">
         <p class="notice-label">© 2026 Jackson Wiser. All Rights Reserved.</p>
     </div>
+
+
+
+<script>
+    const burger = document.getElementById("burger");
+    const mobileMenu = document.querySelector(".mobile-menu");
+
+    burger.addEventListener("change", () => {
+        mobileMenu.classList.toggle("active");
+    });
+</script>
 
 </body>
 

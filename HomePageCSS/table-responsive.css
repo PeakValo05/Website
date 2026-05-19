@@ -1,0 +1,27 @@
+@media (max-width: 900px) {
+    .experience-summary {
+        position: static;
+        margin-top: 30px;
+        padding: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .experience-table {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .experience-table th,
+    .experience-table td {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .experience-summary {
+        padding: 10px;
+    }
+}
+
