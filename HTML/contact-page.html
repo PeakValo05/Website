@@ -11,11 +11,29 @@
     <link rel="stylesheet" href="/ContactPageCSS/body-content.css">
     <link rel="stylesheet" href="/ContactPageCSS/cards.css">
     <link rel="stylesheet" href="/ContactPageCSS/images.css">
+    <link rel="stylesheet" href="/ContactPageCSS/buttons.css">
+    <link rel="stylesheet" href="/ContactPageCSS/bars.css">
+    <link rel="stylesheet" href="/ContactPageCSS/cards-responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
  
 </head>
 <body>
+
+<label for="burger" class="burger">
+    <input id="burger" type="checkbox">
+    <span></span>
+    <span></span>
+    <span></span>
+</label>
+
+<div class="mobile-menu">
+    <a href="home-page.html">Home</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="contact-page.html">Contact</a>
+</div>
+
 
 
     <div class="card-content">
@@ -88,10 +106,25 @@
 </p>
        
         </div>
-        
-        
     </div>
 
+
+       <div class="sub-header">
+        <p class="notice-label">© 2026 Jackson Wiser. All Rights Reserved.</p>
+    </div>
+
+<!--Haburger menu-->
+    <script>
+    const burger = document.getElementById("burger");
+    const mobileMenu = document.querySelector(".mobile-menu");
+
+    burger.addEventListener("change", () => {
+        mobileMenu.classList.toggle("active");
+    });
+</script>
+
+
+ 
 
 </body>
 </html>
