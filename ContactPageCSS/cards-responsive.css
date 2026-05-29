@@ -1,3 +1,5 @@
+
+/* For tablets */
 @media(max-width: 900px){
     .card-content{
         min-height: 100vh;
@@ -24,6 +26,7 @@
     }
 }
 
+/* For Mobile */
 @media (max-width: 480px) {
     .card-content {
         min-height: 100vh;
@@ -62,7 +65,7 @@
 }
 
 
-
+/* For laptops */
 @media (max-width: 1450px) {
     .card-content {
         min-height: 100vh;
