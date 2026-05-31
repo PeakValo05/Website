@@ -3,8 +3,7 @@
     width: 100%;
     background-color: rgb(44, 128, 224);
     padding: 80px 20px;
-    margin-top: 100px; /* space above it */
-    height: 400px;
+    margin-top: 100px;
 }
 /* Header displayed on the footer */
 .what-i-do-tag {

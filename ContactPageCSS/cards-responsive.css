@@ -27,7 +27,7 @@
 }
 
 /* For Mobile */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .card-content {
         min-height: 100vh;
         padding: 20px;

@@ -1,18 +1,6 @@
 /* Self image */
-.self-image{
-    object-fit: cover;
-    width: 400px;
-    height: 460px;
-    margin-left: 150px;
-    margin-top: 100px;
-    border-radius: 20px;
-}
-.text-and-image-container{
-    display: flex;
-    align-items: center;
-    gap: 150px;
-   
-}
+
+
 .underline{
     width: 70px;
     background-color: rgb(44, 128, 224);
@@ -26,10 +14,50 @@
 .block{
     width: 50px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     background-color: rgb(214, 214, 214);
 }
 .block-one-container{
     display: flex;
     gap: 10px;
+}
+/* Line under the "What I Do" text */
+.line{
+    width: 90px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+/* Center the line */
+.center-line{
+    display: flex;
+    justify-content: center;
+}
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 40px;
+    padding-right: 20px;;
+}
+.stat-card {
+    width: 170px;
+    height: 170px;
+   
+    background-color: white;
+    border-radius: 16px;
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+.self-description-one, .self-description-two{
+    font-size: 20px;
 }

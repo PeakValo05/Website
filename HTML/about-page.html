@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="/AboutPageCSS/body-content.css">
     <link rel="stylesheet" href="/AboutPageCSS/bars.css">
     <link rel="stylesheet" href="/AboutPageCSS/buttons.css">
+    <link rel="stylesheet" href="/AboutPageCSS/images.css">
+    <link rel="stylesheet" href="/AboutPageCSS/bars-responsive.css">
+    <link rel="stylesheet" href="/AboutPageCSS/images-responsive.css">
+    <link rel="stylesheet" href="/AboutPageCSS/body-content-responsive.css">
 </head>
 
 <body>
@@ -21,7 +25,6 @@
     <div class="top-bar-nav">
         <button class="download-resume">Download Resume</button>
 
-        <!-- Hamburger Menu Button -->
         <label for="burger" class="burger">
             <input id="burger" type="checkbox">
             <span></span>
@@ -47,68 +50,88 @@
         <!-- About Text Content -->
         <div class="text-content">
 
-            <h1 style="font-size: 20px; font-weight: bold; color: rgb(44, 128, 224)">About Me</h1>
-            <h2 style="font-size: 50px; font-weight: bold;">I'm Jackson Wiser</h2>
+            <h1 style="font-size: 20px; font-weight: bold; color: rgb(44, 128, 224)">
+                About Me
+            </h1>
 
-            <p>
-                a Software Development student with a<br>
-                passion for building applications, websites, and games.<br>
-                I enjoy learning new technologies, solving problems, and creating<br>
-                projects that help me grow as a developer.
+            <h2 style="font-size: 50px; font-weight: bold;">
+                I'm Jackson Wiser
+            </h2>
+
+            <p class="self-description-one">
+                A Software Development student with a passion for building
+                applications, websites, and games. I enjoy learning new
+                technologies, solving problems, and creating projects that
+                help me grow as a developer.
             </p>
 
             <div class="underline"></div>
 
-            <p style="margin-top: 10px;">
-                I am passionate about software development and enjoy creating<br>
-                applications while continuously learning new technologies and improving my skills.
+            <p style="margin-top: 10px;" class="self-description-two">
+                I am passionate about software development and enjoy creating
+                applications while continuously learning new technologies and
+                improving my skills.
             </p>
 
             <!-- Contact Info Blocks -->
             <div class="block-container">
 
-                <!-- Phone Block -->
                 <div class="block-one-container">
-                    <div class="block"></div>
+                    <div class="block">
+                        <img src="/images/phoneicon.png" class="icons">
+                    </div>
 
                     <div class="text-container">
-                        <p>
-                            <b>Phone</b><br>
-                            (425) 879 - 7310
-                        </p>
+                        <p><b>Phone</b><br>(425) 879 - 7310</p>
                     </div>
                 </div>
 
-                <!-- Location Block -->
                 <div class="block-one-container">
-                    <div class="block"></div>
+                    <div class="block">
+                        <img src="/images/map.png" class="icons">
+                    </div>
 
                     <div class="text-container">
-                        <p>
-                            <b>Location</b><br>
-                            Utah
-                        </p>
+                        <p><b>Location</b><br>Utah</p>
                     </div>
                 </div>
 
-                <!-- Email Block -->
                 <div class="block-one-container">
-                    <div class="block"></div>
+                    <div class="block">
+                        <img src="/images/mail.png" class="icons">
+                    </div>
 
                     <div class="text-container">
-                        <p>
-                            <b>Email</b><br>
-                            jwiser.dev@gmail.com
-                        </p>
+                        <p><b>Email</b><br>jwiser.dev@gmail.com</p>
                     </div>
                 </div>
 
             </div>
 
-            <!-- Connect Button -->
             <button class="btn-connect">Let's Connect</button>
 
         </div>
+
+        <!-- Stats Section -->
+        <div class="stats-container">
+
+            <div class="stat-card">
+                <h3>5+</h3>
+                <p>Projects</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Java</h3>
+                <p>Spring Boot</p>
+            </div>
+
+            <div class="stat-card">
+                <h3>C#</h3>
+                <p>Game Development</p>
+            </div>
+
+        </div>
+
     </div>
 
     <!-- What I Do Section -->
@@ -116,40 +139,39 @@
 
         <h1 class="what-i-do-tag">What I Do</h1>
 
-        <!-- Skills Container -->
+        <div class="center-line">
+            <div class="line"></div>
+        </div>
+
         <div class="skills-container">
 
-            <!-- Web Development Card -->
             <div class="skill-card">
                 <h3>Web Development</h3>
                 <p>Creating responsive websites using HTML, CSS, JavaScript, and Bootstrap.</p>
             </div>
 
-            <!-- Backend Development Card -->
             <div class="skill-card">
                 <h3>Backend Development</h3>
                 <p>Building applications with Java, Spring Boot, and REST APIs.</p>
             </div>
 
-            <!-- UI Design Card -->
             <div class="skill-card">
                 <h3>UI Design</h3>
                 <p>Designing clean and user-friendly interfaces with modern layouts.</p>
             </div>
 
-            <!-- Problem Solving Card -->
             <div class="skill-card">
                 <h3>Problem Solving</h3>
                 <p>Finding solutions through debugging, testing, and logical thinking.</p>
             </div>
 
-            <!-- Game Development Card -->
             <div class="skill-card">
                 <h3>Game Development</h3>
                 <p>Building interactive games and gameplay systems with C#.</p>
             </div>
 
         </div>
+
     </section>
 
     <!-- Hamburger Menu Script -->
