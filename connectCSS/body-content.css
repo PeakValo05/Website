@@ -1,0 +1,40 @@
+.text-content{
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+}
+.header{
+    font-size: 40px;
+    font-weight: none;
+    color: rgb(255, 255, 255);
+}
+.phone-subtag{
+    font-size: 18px;
+    font-weight: 100;
+    background: none;
+    border: none;
+    color: white;
+    
+}
+.email-subtag{
+    font-size: 18px;
+    font-weight: 100;
+    background: none;
+    border: none;
+    color: white;
+    
+   
+}
+.linkedin-subtag{
+    font-size: 18px;
+    font-weight: 100;
+    background: none;
+    border: none;
+    color: white;
+    
+}
+.content-header{
+    font-size: 30px;
+    font-weight: none;
+    color: rgb(255, 255, 255);
+}
