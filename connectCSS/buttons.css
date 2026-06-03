@@ -109,11 +109,11 @@
     justify-content: start;
     align-items: flex-start;
     height: 100vh;
-    gap: 10px;
+    gap: 40px;
     flex-direction: column;
     padding-left: 10px;
 }
-.email-btn, .linkedin-btn, .phone-btn, .resume-btn{
+.email-btn, .linkedin-btn, .phone-btn, .resume-btn, .education-btn{
    
     font-size: 18px;
     text-align: left;
