@@ -42,3 +42,6 @@
     font-weight: none;
     color: rgb(255, 255, 255);
 }
+body{
+    margin: 0;
+}
