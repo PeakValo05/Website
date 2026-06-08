@@ -7,9 +7,11 @@
 
     .resume-btn,
     .projects-btn {
-        width: 160px;
-        height: 45px;
-        font-size: 14px;
+    width: 160px;
+    height: 45px;
+    font-size: 14px;
+    margin: 0 auto;
+    display: block;
     }
 }
 

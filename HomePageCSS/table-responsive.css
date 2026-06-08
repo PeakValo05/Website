@@ -1,15 +1,16 @@
-@media (max-width: 1470px) {
+
+@media (max-width: 1550px) {
     .experience-summary {
         position: static;
         margin-top: 30px;
-        padding-left: 80px;
+        display: flex;
         justify-content: center;
-        width: 78%;
+        padding-left: 0;
+        width: 100%;
     }
 
     .experience-table {
-        width: 100%;
-        max-width: 100%;
+        max-width: 900px;
     }
 }
 
@@ -17,11 +18,16 @@
     .experience-table th,
     .experience-table td {
         padding: 12px;
+        margin: 0;
         font-size: 14px;
+
+        
     }
 
     .experience-summary {
         padding: 10px;
+
+
     }
 }
 
