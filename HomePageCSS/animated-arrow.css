@@ -5,7 +5,7 @@
     border-right: 7px solid rgb(44, 128, 224);
     border-bottom: 7px solid rgb(44, 128, 224);
     cursor: pointer;
-    transform: rotate(-135deg);
+    transform: rotate(45deg);
 }
 .arrow-container{
     display: flex;
@@ -16,12 +16,13 @@
 }
 
 @keyframes rotateArrow {
-
-    from {
-        transform: rotate(-135deg);
+    0% {
+        transform: rotate(45deg);
     }
-
-    to {
+    50% {
+        transform: rotate(60deg);
+    }
+    100% {
         transform: rotate(45deg);
     }
 }
