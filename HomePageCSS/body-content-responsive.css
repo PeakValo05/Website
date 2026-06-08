@@ -49,9 +49,9 @@
         font-size: 12px;
         text-align: left;
         color: white;
-            text-shadow:
-        0 2px 4px rgba(0,0,0,0.8),
-        0 4px 12px rgba(0,0,0,0.5);
+        text-shadow:
+        0 -2px 2px rgb(15, 66, 124),
+        0 4px 5px rgb(12, 52, 95);
 
 
     }
@@ -81,9 +81,10 @@
         font-size: 12px;
         text-align: left;
         color: white;
+
         text-shadow:
-        0 2px 4px rgba(0,0,0,0.8),
-        0 4px 12px rgba(0,0,0,0.5);
+        0 -2px 2px rgb(15, 66, 124),
+        0 4px 5px rgb(12, 52, 95);
 
     }
 
@@ -147,10 +148,10 @@
     .txt-description{
         font-size: 12px;
         text-align: center;
-        color: white;
+        color: rgb(255, 255, 255);
         text-shadow:
-        0 2px 4px rgba(0,0,0,0.8),
-        0 4px 12px rgba(0,0,0,0.5);
+        0 -2px 2px rgb(15, 66, 124),
+        0 4px 5px rgb(12, 52, 95);
 
     }
     
