@@ -45,3 +45,11 @@
 body{
     margin: 0;
 }
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
