@@ -15,6 +15,11 @@
         text-align: center;
     }
 }
+
+
+
+
+
 @media(max-width: 1000px) {
     .body-content {
         flex-direction: column;
@@ -32,6 +37,10 @@
         text-align: center;
     }
 }
+
+
+
+
 @media(max-width: 1550px) {
     .body-content {
         flex-direction: column;

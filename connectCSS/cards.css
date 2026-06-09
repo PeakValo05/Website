@@ -20,19 +20,25 @@
     padding-left: 30px;
 }
 .main-card{
-    width: 100vw;
+    width: 50vw;
     height: 750px;
     background-color: white;
     border: 1px solid #dee2e6;
     border-radius: 10px;
-    gap: 30px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     margin-top: 5px;
     padding-top: 70px;
     padding-left: 20px;
-    
+    align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.paper-plane-image {
+    margin-bottom: 20px;
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
 }
 .main-card-content{
     display: flex;
@@ -41,4 +47,9 @@
     align-items: flex-start;
     padding-right: 20px;
     width: 100%;
+}
+.divider {
+    width: 80%;
+    height: 1px;
+    background-color: #dee2e6;
 }
