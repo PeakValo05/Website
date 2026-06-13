@@ -43,8 +43,12 @@
     font-weight: none;
     color: rgb(255, 255, 255);
 }
-body{
-    margin: 0;
+html, body {
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 html, body {
