@@ -11,7 +11,7 @@
     }
 
  
-.card,
+.card, .card-right,
 .main-card{
     width: 100%;
     max-width: 400px;
@@ -59,17 +59,18 @@
     }
 
     .main-card,
-    .card{
+    .card, .card-right{
         width: 100%;
         max-width: 400px;
         height: auto;
         margin: 0 auto;
-        padding: 40px 20px;
+        padding: 40px 30px;
         box-sizing: border-box;
     }
 
     .main-card{
         min-height: 750px;
+        
     }
     .linkedin, .github{
         width: 70px;
