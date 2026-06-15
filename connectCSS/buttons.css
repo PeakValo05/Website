@@ -163,11 +163,19 @@
     height: 70px;
     padding-top: 10px;
     text-decoration: none;
-   
-    
-
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    flex-wrap: nowrap;
+}
+
 .linkedin:hover, .github:hover{
     background-color: rgb(44, 128, 224);
     transform: scale(1.05);

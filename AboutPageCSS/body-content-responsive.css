@@ -34,15 +34,14 @@
     .self-description-two {
         font-size: 15px;
     }
-    .btn-connect {
-        display: inline-block;
-        margin-top: 20px;
 
 }
-}
+
+
+
 
 /* Phones */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .stat-card {
         width: 120px;
         height: 120px;
@@ -50,10 +49,24 @@
 
     .block-container {
         gap: 15px;
+        padding-left: 10px;
     }
 
     .block {
         width: 45px;
         height: 45px;
+    }
+            .btn-connect {
+        display: inline-block;
+        margin-top: 20px;
+
+}
+    .underline-container{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-connect-container{
+        display: flex;
+        justify-content: center;
     }
 }

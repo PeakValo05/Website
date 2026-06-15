@@ -137,6 +137,7 @@
     border: none;
     border-radius: 12px;
 
+    margin-top: 10px;
     padding: 12px 24px;
 
     font-size: 1rem;
@@ -147,6 +148,10 @@
     transition: all 0.3s ease;
 
     box-shadow: 0 4px 12px rgba(44, 128, 224, 0.3);
+}
+
+.btn-connect-container{
+    display: flex;
 }
 .btn-connect:hover{
     transform: translateY(-3px);

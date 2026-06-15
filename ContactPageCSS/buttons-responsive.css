@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    .burger {
+        width: 35px;
+        height: 26px;
+        margin-top: 25px;
+    }
+
+    .resume-btn,
+    .projects-btn {
+        width: 160px;
+        height: 45px;
+        font-size: 14px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .burger {
+        width: 32px;
+        height: 24px;
+    }
+
+    .resume-btn,
+    .projects-btn {
+        width: 100%;
+        max-width: 220px;
+        height: 44px;
+        font-size: 14px;
+    }
+
+    .resume-btn:hover,
+    .projects-btn:hover {
+        transform: scale(1.03);
+    }
+}
