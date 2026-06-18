@@ -15,13 +15,15 @@
     color: white;
 }
 .txt-header{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 .txt2-label{
     font-size: 20px;
     color: rgb(44, 128, 224);
+    
 }
 .txt-description{
     font-size: 15px;

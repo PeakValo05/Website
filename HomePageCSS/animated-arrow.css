@@ -1,28 +1,53 @@
-.scroll-down {
-    width: 30px;
-    height: 30px;
-    
-    border-right: 7px solid rgb(44, 128, 224);
-    border-bottom: 7px solid rgb(44, 128, 224);
+/* Scroll back to top */
+.scroll-top{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
     cursor: pointer;
+
+    width: 20px;
+    height: 20px;
+
+    border-right: 5px solid #999;
+    border-bottom: 5px solid #999;
+
+    transform: rotate(45deg);
+    transition: all .4s ease;
+    margin-bottom: 10px;
+}
+.scroll-top:hover{
+    transform: rotate(-135deg);
+}
+.arrow-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.scroll-bottom{
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+
+    width: 20px;
+    height: 20px;
+
+    border-right: 5px solid #999;
+    border-bottom: 5px solid #999;
+
+    transform: rotate(-135deg);
+    transition: all .4s ease;
+    margin-top: 10px;
+}
+.scroll-bottom:hover{
     transform: rotate(45deg);
 }
 .arrow-container{
     display: flex;
     justify-content: center;
 }
-.scroll-down:hover{
-    animation: rotateArrow 0.5s forwards;
-}
 
-@keyframes rotateArrow {
-    0% {
-        transform: rotate(45deg);
-    }
-    50% {
-        transform: rotate(60deg);
-    }
-    100% {
-        transform: rotate(45deg);
-    }
-}
