@@ -9,7 +9,10 @@
 .what-i-do-tag {
     text-align: center;
     color: white;
-    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 25px;
+    font-weight: bold;
+    
 }
 /* Container to hold the skills */
 .skills-container {

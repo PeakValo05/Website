@@ -44,11 +44,13 @@
    
 }
 .scroll-bottom:hover::after{
-    content: "Scroll Down";
+    content: "- Scroll Down -";
     opacity: 1;
     color: rgb(44, 128, 224);
     font-size: 14px;
     white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 .arrow-container{
     display: flex;
@@ -77,6 +79,7 @@
     transform: rotate(45deg);
     transition: all .4s ease;
     margin-bottom: 10px;
+    
 }
 /* Hover effect for the arrow */
 .scroll-top:hover{
@@ -89,12 +92,15 @@
     content: "";
     opacity: 0;
     transition: opacity 0.3s ease;
+    
    
 }
 .scroll-top:hover::after{
-    content: "Scroll Up";
+    content: "- Scroll Up -";
+    font-weight: bold;
     opacity: 1;
     color: rgb(44, 128, 224);
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     white-space: nowrap;
 }
