@@ -89,7 +89,10 @@
         <!--Scroll to bottom of main page-->
 <section>
     <div class="arrow-container">
-        <button id="scrollBtn" class="scroll-bottom"></button>
+        <button id="scrollBottomBtn" class="scroll-bottom">
+            
+        </button>
+            <span class="tooltip">Scroll Down</span>
     </div>
 </section>
        
@@ -304,9 +307,9 @@ scrollTopBtn.addEventListener("click", () => {
 <!--Scroll down function-->
 <script>
 
-const scrollBtn = document.getElementById("scrollBtn");
+const scrollBottomBtn = document.getElementById("scrollBottomBtn");
 
-scrollBtn.addEventListener("click", () => {
+scrollBottomBtn.addEventListener("click", () => {
     window.scrollTo({
         top: document.documentElement.scrollHeight,
         behavior: "smooth"
