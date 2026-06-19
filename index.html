@@ -87,13 +87,12 @@
 
 
         <!--Scroll to bottom of main page-->
-  <section id="scrollBtn">
+<section>
     <div class="arrow-container">
-    <button class="scroll-bottom">
-        
-        </button>
-        </div>
-        </section>
+        <button id="scrollBtn" class="scroll-bottom"></button>
+    </div>
+</section>
+       
 
 
 
@@ -260,21 +259,21 @@
 
         
 
-            <!--Scroll to top of main page-->
-    <section id="scrollTopBtn">
-    <div class="arrow-container">
-    <button class="scroll-top">
-        
-        </button>
-        </div>
-          </section>
+        <!-- Scroll to top -->
+        <section class="scroll-top-section">
+            <div class="arrow-container">
+                <button id="scrollTopBtn" class="scroll-top"></button>
+            </div>
+        </section>
 
+        <!-- Footer -->
+        <footer class="sub-header">
+            <p class="notice-label">
+                © 2026 Jackson Wiser. All Rights Reserved.
+            </p>
+        </footer>
 
-
-     <div class="sub-header">
-        
-        <p class="notice-label">© 2026 Jackson Wiser. All Rights Reserved.</p>
-        </div>
+    </section>
 
 
 
@@ -309,7 +308,7 @@ const scrollBtn = document.getElementById("scrollBtn");
 
 scrollBtn.addEventListener("click", () => {
     window.scrollTo({
-        top: window.innerHeight,
+        top: document.documentElement.scrollHeight,
         behavior: "smooth"
     });
 });
