@@ -1,6 +1,6 @@
 
 @media (max-width: 1550px) {
-    .experience-summary {
+    .costco-experience-summary, .cinemark-experience-summary{
         position: static;
         margin-top: 30px;
         display: flex;
@@ -8,15 +8,18 @@
         padding-left: 0;
         width: 100%;
     }
+    
 
-    .experience-table {
+    .costco-experience-table, .cinemark-experience-table {
         max-width: 900px;
     }
 }
 
 @media (max-width: 768px) {
-    .experience-table th,
-    .experience-table td {
+    .costco-experience-table th,
+    .costco-experience-table td,
+    .cinemark-experience-table th,
+    .costco-experience-table td {
         padding: 12px;
         margin: 0;
         font-size: 14px;
@@ -24,7 +27,8 @@
         
     }
 
-    .experience-summary {
+    .costco-experience-summary,
+    .cinemark-experience-summary {
         padding: 10px;
 
 

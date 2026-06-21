@@ -1,15 +1,25 @@
-.experience-summary {
+.costco-experience-summary {
     position: absolute;
     margin-top: 130px;
     padding-right: 70px;
 
     display: flex;
     justify-content: flex-end;
+    
+    width: 100%;
+}
+.cinemark-experience-summary{
+    position: absolute;
+    margin-top: 400px;
+    padding-right: 70px;
 
+    display: flex;
+    justify-content: flex-end;
+    
     width: 100%;
 }
 
-.experience-table {
+.costco-experience-table, .cinemark-experience-table {
     width: 700px;
     max-width: 900px;
 
@@ -22,7 +32,7 @@
     box-shadow: 0 8px 24px rgba(0,0,0,0.08);
 }
 
-.experience-table th {
+.costco-experience-table th, .cinemark-experience-table th{
     background-color: rgb(44, 128, 224);
     color: white;
 
@@ -30,11 +40,15 @@
     padding: 16px;
 }
 
-.experience-table td {
+.costco-experience-table td, .cinemark-experience-table td {
     padding: 16px;
     border-bottom: 1px solid rgba(44, 128, 224, 0.1);
 }
 
-.experience-table tr:hover {
+.costco-experience-table tr:hover, .cinemark-experience-table tr:hover {
     background-color: rgba(44, 128, 224, 0.04);
+}
+.header-style{
+    background-color: rgb(44, 128, 224);
+    color: white;
 }
