@@ -62,11 +62,17 @@
     font-size: 35px;
     font-weight: bold;
 }
+/* PV logo's height and width */
 .PV-logo{
     width: 75px;
     height: 75px;
-  
-    
+    transition: all ease 0.1s;
+    cursor: pointer;
+}
+
+/* Hover effect on the PV logo */
+.PV-logo:hover{
+    scale: 1.1;
 }
 .logo-name-container{
     display: flex;
