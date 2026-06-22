@@ -34,3 +34,13 @@
         transform: scale(1.03);
     }
 }
+
+/* Change the distance between the nav buttons for laptop view */
+@media(max-width: 1300px){
+    .nav-button-container{
+        gap: 20px;
+        display: flex;
+        padding-right: 10px;
+    }
+}
+

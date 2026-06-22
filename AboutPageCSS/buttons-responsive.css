@@ -51,7 +51,7 @@
 }
     .mobile-menu.active{
         display: flex;
-        flex-direction: column;
+    flex-direction: column;
 }
 
 
@@ -62,3 +62,15 @@
 @media(max-width: 1200px){
     
 }
+
+
+
+/* Change the distance between the nav buttons for laptop view */
+@media(max-width: 1300px){
+    .nav-button-container{
+        gap: 20px;
+        display: flex;
+        padding-right: 10px;
+    }
+}
+
