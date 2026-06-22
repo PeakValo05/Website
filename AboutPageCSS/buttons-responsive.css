@@ -2,6 +2,18 @@
     display: none !important;
 }
 
+
+/* Change the distance between the nav buttons for laptop view */
+@media(max-width: 1500px){
+    .nav-button-container{
+        gap: 20px;
+        display: flex;
+        padding-right: 10px;
+    }
+}
+
+
+
 @media (max-width: 1200px){
     .nav-button-container{
         display: none !important;
@@ -64,13 +76,4 @@
 }
 
 
-
-/* Change the distance between the nav buttons for laptop view */
-@media(max-width: 1500px){
-    .nav-button-container{
-        gap: 20px;
-        display: flex;
-        padding-right: 10px;
-    }
-}
 

@@ -1,3 +1,14 @@
+/* Change the distance between the nav buttons for laptop view */
+@media(max-width: 1500px){
+    .nav-button-container{
+        gap: 20px;
+        display: flex;
+        padding-right: 10px;
+    }
+}
+
+
+
 @media (max-width: 768px) {
     .burger {
         width: 35px;
@@ -32,15 +43,6 @@
     .resume-btn:hover,
     .projects-btn:hover {
         transform: scale(1.03);
-    }
-}
-
-/* Change the distance between the nav buttons for laptop view */
-@media(max-width: 1500px){
-    .nav-button-container{
-        gap: 20px;
-        display: flex;
-        padding-right: 10px;
     }
 }
 
