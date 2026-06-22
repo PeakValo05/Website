@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="ContactPageCSS/bars.css">
     <link rel="stylesheet" href="ContactPageCSS/cards-responsive.css">
     <link rel="stylesheet" href="ContactPageCSS/buttons-responsive.css">
+    <link rel="stylesheet" href="ContactPageCSS/mobile-btn-responsive.css">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
@@ -25,26 +26,28 @@
 
 <body>
 
-    <!-- Top Navigation Bar -->
-    <div class="top-bar-nav">
 
-        <!-- Hamburger Menu Button -->
-        <label for="burger" class="burger">
-            <input id="burger" type="checkbox">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
+        <!--Container to hold logo and name-->
+    <div class="logo-name-container">
+        <img src="images/PV logo.png" class="PV-logo">
+        <h1 class="peaks-label">PEAKSVALO</h1>
 
+
+
+            <!-- ==== Container for all nav button ==== -->
+    <div class="nav-button-container">
+        <a href="index.html" class="home-btn">Home</a>
+        <a href="about-page.html" class="about-btn">About</a>
+        <a href="contact-page.html" class="contact-btn">Contact</a>
+        <a href="connect.html" class="connect-btn">Connect</a>
+        <button class="download-resume-btn">Download Resume</button>
     </div>
 
-    <!-- Mobile Navigation Menu -->
-    <div class="mobile-menu">
-        <a href="index.html">Home</a>
-        <a href="about-page.html">About</a>
-        <a href="#">Projects</a>
-        <a href="contact-page.html">Contact</a>
+
+    <!-- ==== END of the CONTAINER that started at "logo-name-container" ==== -->
     </div>
+
+
 
     <!-- Main Contact Section -->
     <div class="card-content">
@@ -154,8 +157,8 @@
     </div>
 
     <!-- Footer -->
-    <div class="sub-header">
-        <p class="notice-label">
+
+        <p class="notice-label" style="color: white">
             © 2026 Jackson Wiser. All Rights Reserved.
         </p>
     </div>

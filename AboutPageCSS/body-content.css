@@ -1,4 +1,15 @@
-/* Self image */
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+    #2d1b69,
+    #4c1d95,
+    #7c3aed
+);
+}
+
 
 
 .underline{
@@ -10,6 +21,7 @@
 .block-container{
     gap: 40px;
     display: flex;
+   
 }
 .block{
     width: 50px;
@@ -37,27 +49,7 @@
     display: flex;
     justify-content: center;
 }
-.stats-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 40px;
-    padding-right: 20px;;
-}
-.stat-card {
-    width: 170px;
-    height: 170px;
-   
-    background-color: white;
-    border-radius: 16px;
 
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-}
 .self-description-one, .self-description-two{
     font-size: 20px;
 }

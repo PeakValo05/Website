@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="HomePageCSS/body-content-responsive.css">
     <link rel="stylesheet" href="HomePageCSS/table-responsive.css">
     <link rel="stylesheet" href="HomePageCSS/buttons-responsive.css">
+    <link rel="stylesheet" href="HomePageCSS/mobile-btn.css">
 
 
 
@@ -39,34 +40,36 @@
 
 
 
-        <!-- ===== HEADER ===== -->
-    <header class="top-bar">
-            <img class="label-jackson" src="images/PV logo.png" alt="Jackson Wiser" width="75" height="75">
-            <h1 class="peaks-label">PeaksValo</h1>
-
-            <label for="burger" class="burger" id="burger-menu">
-                <input id="burger" type="checkbox">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-
-            <div class="mobile-menu">
-                <a href="#">Home</a>
-                <a href="about-page.html">About</a>
-                <a href="#">Projects</a>
-                <a href="contact-page.html">Contact</a>
-            </div>
-
-        </header>
 
 
 
 
-
-        <!-- ===== HERO ===== -->
+        <!-- ===== HERO with logo, name, nav buttons, etc ===== -->
     <div class="hero-image">
-            <p class="txt-label">Hi, I'm</p>
+
+        <!--Container to hold logo and name-->
+    <div class="logo-name-container">
+        <img src="images/PV logo.png" class="PV-logo">
+        <h1 class="peaks-label">PEAKSVALO</h1>
+
+
+
+            <!-- ==== Container for all nav button ==== -->
+    <div class="nav-button-container">
+        <a href="about-page.html" class="about-btn">About</a>
+        <a href="contact-page.html" class="contact-btn">Contact</a>
+        <a href="connect.html" class="connect-btn">Connect</a>
+        <button class="download-resume-btn">Download Resume</button>
+    </div>
+
+
+    <!-- ==== END of the CONTAINER that started at "logo-name-container" ==== -->
+    </div>
+
+
+        
+            
+            
             <h1 class="txt-header">Jackson Wiser</h1>
             <p class="txt2-label">Software Development Student</p>
 
@@ -80,7 +83,7 @@
             </p>
 
             <button class="projects-btn">View my Projects</button>
-            <button class="resume-btn">Download Resume</button>
+
         </div>
 
 

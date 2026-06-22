@@ -58,3 +58,28 @@
     font-family: 'Poppins', sans-serif;
     
 }
+
+
+
+
+/* Container to hold personal logo and name */
+.peaks-label{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: bold;
+}
+.PV-logo{
+    width: 75px;
+    height: 75px;
+  
+    
+}
+.logo-name-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 35px;
+    
+}
+
+
