@@ -36,7 +36,7 @@
 }
 
 /* Change the distance between the nav buttons for laptop view */
-@media(max-width: 1300px){
+@media(max-width: 1500px){
     .nav-button-container{
         gap: 20px;
         display: flex;
