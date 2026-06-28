@@ -263,14 +263,17 @@
 
     </div>
 
+    <!-- Hamburger Menu Script -->
     <script>
-        const burger = document.getElementById("burger");
+        const burger = document.getElementById("hamburger-btn");
         const mobileMenu = document.querySelector(".mobile-menu");
 
-        burger.addEventListener("change", () => {
-            mobileMenu.classList.toggle("active");
-        });
+        burger.addEventListener("click", () => {
+        console.log("clicked");
+        mobileMenu.classList.toggle("active");
+});
     </script>
+
 
 </body>
 

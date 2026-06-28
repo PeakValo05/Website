@@ -63,6 +63,27 @@
     </div>
 
 
+        <!--MOBILE button-->
+    <button class="hamburger-btn" id="hamburger-btn">
+    <span class="icon">
+        <svg viewBox="0 0 175 80" width="40" height="40">
+            <rect width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+            <rect y="30" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+            <rect y="60" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+        </svg>
+    </span>
+    <span class="text">MENU</span>
+</button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="about-page.html">About</a>
+        <a href="contact-page.html">Contact</a>
+        <a href="connect.html">Connect</a>
+    </div>
+
+
     <!-- ==== END of the CONTAINER that started at "logo-name-container" ==== -->
     </div>
 
@@ -353,16 +374,17 @@ scrollBottomBtn.addEventListener("click", () => {
 </script>
     
 
-<!--Hamburger navigation function-->
-<script>
-    // Hamburger navigation menu
-    const burger = document.getElementById("burger");
-    const mobileMenu = document.querySelector(".mobile-menu");
 
-    burger.addEventListener("change", () => {
-        mobileMenu.classList.toggle("active");
-    });
-</script>
+    <!-- Hamburger Menu Script -->
+    <script>
+const burger = document.getElementById("hamburger-btn");
+const mobileMenu = document.querySelector(".mobile-menu");
+
+burger.addEventListener("click", () => {
+    console.log("clicked");
+    mobileMenu.classList.toggle("active");
+});
+    </script>
 
 </body>
 

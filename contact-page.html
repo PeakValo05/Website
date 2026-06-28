@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="ContactPageCSS/cards-responsive.css">
     <link rel="stylesheet" href="ContactPageCSS/buttons-responsive.css">
     <link rel="stylesheet" href="ContactPageCSS/mobile-btn-responsive.css">
+    <link rel="stylesheet" href="ContactPageCSS/mobile-btn.css">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
@@ -56,6 +57,27 @@
         <!--Button to download resume-->
         <button class="download-resume-btn">Download Resume</button>
     </div>
+
+        <!--MOBILE button-->
+    <button class="hamburger-btn" id="hamburger-btn">
+    <span class="icon">
+        <svg viewBox="0 0 175 80" width="40" height="40">
+            <rect width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+            <rect y="30" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+            <rect y="60" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+        </svg>
+    </span>
+    <span class="text">MENU</span>
+</button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="about-page.html">About</a>
+        <a href="contact-page.html">Contact</a>
+        <a href="connect.html">Connect</a>
+    </div>
+
 
 
     <!-- ==== END of the CONTAINER that started at "logo-name-container" ==== -->
@@ -184,16 +206,21 @@
         <p class="notice-label" style="color: white">
             © 2026 Jackson Wiser. All Rights Reserved.
         </p>
-    </div>
+
+
+
+
+
 
     <!-- Hamburger Menu Script -->
     <script>
-        const burger = document.getElementById("burger");
-        const mobileMenu = document.querySelector(".mobile-menu");
+const burger = document.getElementById("hamburger-btn");
+const mobileMenu = document.querySelector(".mobile-menu");
 
-        burger.addEventListener("change", () => {
-            mobileMenu.classList.toggle("active");
-        });
+burger.addEventListener("click", () => {
+    console.log("clicked");
+    mobileMenu.classList.toggle("active");
+});
     </script>
 
 </body>

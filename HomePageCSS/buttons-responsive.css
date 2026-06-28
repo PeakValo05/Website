@@ -1,3 +1,8 @@
+.hamburger-btn{
+    display: none !important;
+}
+
+
 /* Change the distance between the nav buttons for laptop view */
 @media(max-width: 1500px){
     .nav-button-container{
@@ -9,43 +14,70 @@
 
 
 
-@media (max-width: 768px) {
-    .burger {
-        width: 35px;
-        height: 26px;
-     
+@media (max-width: 1200px){
+    .nav-button-container{
+        display: none !important;
     }
 
-    .resume-btn,
-    .projects-btn {
-        width: 160px;
-        height: 45px;
-        font-size: 14px;
-        margin: 0 auto;
-        display: block;
+    .hamburger-btn{
+        display: flex !important;
+        margin-left: auto !important;
+        position: relative;
+        z-index: 9999;
+        font-size: 10px;
+
     }
+    .hamburger-btn:hover {
+        box-shadow: 0 0 20px 0px #2e2e2e3a;
 }
 
-@media (max-width: 768px) {
-    .burger {
-        width: 32px;
-        height: 24px;
+    .hamburger-btn .icon {
+        position: absolute;
+        height: 40px;
+        width: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s;
+}
+
+    .hamburger-btn .text {
+        transform: translateX(55px);
+}
+
+    .hamburger-btn:hover .icon {
+         width: 175px;
+}
+
+    .hamburger-btn:hover .text {
+        transition: all 0.5s;
+        opacity: 0;
+}
+
+    .hamburger-btn:focus {
+        outline: none;
+}
+
+    .hamburger-btn:active .icon {
+        transform: scale(0.85);
+}
+    .mobile-menu.active{
+        display: flex;
+    flex-direction: column;
+}
+    .hero-image{
+        display: flex;
+        align-items: center;
     }
 
-    .resume-btn,
-    .projects-btn {
-        width: 100%;
-        max-width: 220px;
-        height: 44px;
-        font-size: 14px;
-    }
 
-    .resume-btn:hover,
-    .projects-btn:hover {
-        transform: scale(1.03);
-    }
+
+
+
+
+
+}
+@media(max-width: 1200px){
     
 }
-
-
 
