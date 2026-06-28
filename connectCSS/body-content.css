@@ -37,7 +37,6 @@ body {
     border: none;
     color: #0000EE;
     text-align: right;
-    flex-direction: row;
 }
 .education-subtag{
     font-size: 18px;

@@ -26,20 +26,55 @@
     color: rgb(255, 255, 255)
     
 }
+/* download resume button styling */
 .download-resume-btn{
     width: 200px;
     height: 50px;
     border-radius: 25px;
     border: 2px solid rgb(44, 128, 224);
     color: rgb(44, 128, 224);
-    transition: transform 0.4s ease, background-color 0.4s ease;
-}
-.download-resume-btn:hover{
-    transform: scale(1.1);
+    transition: all 0.4s ease;
     background-color: rgb(44, 128, 224);
     color: white;
-    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.5); 
+    font-weight: bold;
 }
+/* Download resume button hover effect */
+.download-resume-btn:hover{
+    border-radius: 0px;
+    border: solid white 2px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+}
+
+
+/* Container to hold projects button and text above it */
+.text-button-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+/* Project button styling */
+.projects-btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid transparent;
+  
+    transition: all 0.4s ease;
+    background-color: rgb(255, 255, 255);
+    color: rgb(44, 128, 224);
+    font-weight: bold;
+}
+/* Project button hover effect */
+.projects-btn:hover{
+    border-radius: 0px;
+    color: rgb(255, 255, 255);
+    border: solid rgb(255, 255, 255) 2px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+}
+
 
 
 
